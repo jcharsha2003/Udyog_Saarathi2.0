@@ -60,7 +60,7 @@ const UpscIasFoundation = () => {
   let [errorr, setError] = useState("");
   const getCourses = () => {
     axios
-      .get(`course-api/get-course/UPSC-IAS-Foundation`)
+      .get(`https://udyog-saarathi2-0.onrender.com/course-api/get-course/UPSC-IAS-Foundation`)
       .then((response) => {
         console.log('Response:', response); // Log the entire response object
     console.log('Payload:', response.data.payload); // Log the payload
