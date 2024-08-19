@@ -92,7 +92,7 @@ const UploadVideo = () => {
   };
   let formSubmit = (newUser) => {
     axios
-      .post(`/course-api/add-course`, modifiedFormData)
+      .post(`https://udyog-saarathi2-0.onrender.com/course-api/add-course`, modifiedFormData)
       .then((response) => {
         if (response.status === 201) {
           console.log("successfull");
@@ -116,7 +116,7 @@ const UploadVideo = () => {
 
   const getCourses = () => {
     axios
-      .get(`/course-api/get-course/${path}`)
+      .get(`https://udyog-saarathi2-0.onrender.com/course-api/get-course/${path}`)
       .then((response) => {
         if (response.status === 200) {
           setTopic(response.data.payload);
