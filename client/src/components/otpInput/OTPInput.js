@@ -48,7 +48,7 @@ const OTPInput = () => {
   function resendOTP() {
     if (disable) return;
     axios
-      .post("/send_recovery_email", {
+      .post("https://udyog-saarathi2-0.onrender.com/send_recovery_email", {
         OTP: otp,
         recipient_email: email,
       })
