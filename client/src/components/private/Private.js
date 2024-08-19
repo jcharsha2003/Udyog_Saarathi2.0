@@ -134,7 +134,7 @@ const Private = () => {
 
   let formSubmit = (newUser) => {
     axios
-      .post(`/job-api/add-private`, modifiedFormData)
+      .post(`https://udyog-saarathi2-0.onrender.com/job-api/add-private`, modifiedFormData)
       .then((response) => {
         if (response.status === 201) {
           console.log("successfull");
@@ -167,7 +167,7 @@ const Private = () => {
 
   const getJobs = () => {
     axios
-      .get(`/job-api/get-job/private`)
+      .get(`https://udyog-saarathi2-0.onrender.com/job-api/get-job/private`)
       .then((response) => {
         if (response.status === 200) {
           setData(response.data.payload);
