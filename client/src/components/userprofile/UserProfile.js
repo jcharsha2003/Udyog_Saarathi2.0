@@ -37,7 +37,7 @@ const UserProfile = () => {
 
   const getUsers = () => {
     axios
-      .get(`/user-api/get-emp/${currentUser.email}`, {
+      .get(`https://udyog-saarathi2-0.onrender.com/user-api/get-emp/${currentUser.email}`, {
         headers: { Authorization: "Bearer " + token },
       })
       .then((response) => {
@@ -83,7 +83,7 @@ const UserProfile = () => {
       let modifieduser = getValues();
 
       axios
-        .put(`/user-api/update-user`, modifieduser, {
+        .put(`https://udyog-saarathi2-0.onrender.com/user-api/update-user`, modifieduser, {
           headers: { Authorization: "Bearer " + token },
         })
         .then((response) => {
