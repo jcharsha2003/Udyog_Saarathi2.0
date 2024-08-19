@@ -104,7 +104,7 @@ const Public = () => {
   const getAllJobs = async () => {
     try {
       // &sort=${sort.sort},${	sort.order}
-      const url = `http://localhost:5000/job-api/get-jobs/public?page=${page}&sort=${
+      const url = `https://udyog-saarathi2-0.onrender.com/job-api/get-jobs/public?page=${page}&sort=${
         sort.sort
       },${sort.order}&cat=${filterCat.toString()}&search=${search}`;
 
@@ -140,7 +140,7 @@ const Public = () => {
       formData = { ...formData, role: "public"};
       // You can access the form data directly, no need for modifiedFormData
       axios
-        .post(`/job-api/add-public`, formData)
+        .post(`https://udyog-saarathi2-0.onrender.com/job-api/add-public`, formData)
         .then((response) => {
           if (response.status === 201) {
             console.log(response.data.message);
