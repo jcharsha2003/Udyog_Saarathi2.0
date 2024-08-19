@@ -16,7 +16,7 @@ const Users = () => {
 
   const getUsers = () => {
     axios
-      .get(`/user-api/get-users`, {
+      .get(`https://udyog-saarathi2-0.onrender.com/user-api/get-users`, {
         headers: { Authorization: "Bearer " + token },
       })
       .then((response) => {
