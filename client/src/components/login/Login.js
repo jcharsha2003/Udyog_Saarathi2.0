@@ -77,7 +77,7 @@ function Login() {
     navigate("/otp");
     setEmail(watchedEmail)
     axios
-      .post("/send_recovery_email", {
+      .post("https://udyog-saarathi2-0.onrender.com/send_recovery_email", {
         OTP,
         recipient_email: watchedEmail,
       })
