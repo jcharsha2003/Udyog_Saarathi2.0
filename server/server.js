@@ -17,7 +17,9 @@ app.use(exp.static(path.join(__dirname,"../client/build")));
 
 require("dotenv/config");
 
-
+app.get("/",(req,res)=>{
+  res.json("HELLO");
+})
 const mclient = require("mongodb").MongoClient;
 
 
