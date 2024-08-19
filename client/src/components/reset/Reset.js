@@ -34,7 +34,7 @@ const Reset = () => {
     // Simulate API call to change password
     try {
       // Replace the following line with your actual API call
-      const response = await axios.put("/user-api/change-password",newPassword);
+      const response = await axios.put("https://udyog-saarathi2-0.onrender.com/user-api/change-password",newPassword);
 
       // Handle API response here
       if (response.status === 200) {
