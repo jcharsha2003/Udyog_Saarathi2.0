@@ -8,8 +8,8 @@ const nodemailer = require("nodemailer");
 
 app.use(cors({ origin: true }));
 app.use(exp.json());
-app.listen(5000, () => {
-  console.log("server is listening in port 5000");
+app.listen(5432, () => {
+  console.log("server is listening in port 5432");
 });
 // connecting backend and frontend by server
 const path = require("path");
