@@ -2,7 +2,7 @@
 
 **Live App**: [udyo_saarathi.com](https://udyog-saarathi.vercel.app/)  
 **GitHub Repo**: [GitHub Link](https://github.com/jcharsha2003/Udyog_Saarathi2.0/)
-## It will take time to log in ,because we use a free server 
+## It will take time to log in , because we use a free server 
 > Udyog Saarathi is a socially-driven platform built to support **Persons with Disabilities (PWDs)** by connecting them to job opportunities, skill-enhancement resources, and educational tools — all in one place.
 
 ---
