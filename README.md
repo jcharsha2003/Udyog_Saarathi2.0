@@ -1,8 +1,8 @@
 # 🌐 Udyog Saarathi – Empowering Opportunities for Persons with Disabilities
 
-**Live App**: [udyo_saarathi.com](#)  
-**GitHub Repo**: [GitHub Link](#)
-
+**Live App**: [udyo_saarathi.com](https://udyog-saarathi.vercel.app/)  
+**GitHub Repo**: [GitHub Link](https://github.com/jcharsha2003/Udyog_Saarathi2.0/)
+## it will take time to log in because we use a free server 
 > Udyog Saarathi is a socially-driven platform built to support **Persons with Disabilities (PWDs)** by connecting them to job opportunities, skill-enhancement resources, and educational tools — all in one place.
 
 ---
@@ -143,6 +143,19 @@ npm start
 > 🌱 *Empowering lives. One opportunity at a time.*
 
 ---
+## 🔐 Login Credentials (For Demo)
+
+You can use the following credentials to log in and explore the system:
+
+### 👑 Admin Login
+- **Username**: `chandu@gmail.com`
+- **Password**: `chandu`
+
+### 👷 customer Login
+- **Username**: `vai643@gmail.com`
+- **Password**: `chandu`
+
+> ⚠️ These accounts are for testing purposes only. Always update credentials and enforce strong password policies in production.
 
 **🧑‍💻 Contributors**: [Your Name Here]  
 **📍 Built In**: India  
